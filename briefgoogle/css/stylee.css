@@ -1,0 +1,213 @@
+html, body{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body{
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.nav{
+    border-bottom: 1px solid #E4E4E4;
+}
+
+header {
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+.top{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    display: inline-block;
+    width: 20%;
+}
+.searchbox{
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+}
+.searchbox .loupe{
+    width: 18px;
+    opacity: .4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+.searchbox .cam-icon{
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 45%;
+    cursor: pointer;
+}
+.searchbox .mic-icon{
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 39%;
+    cursor: pointer;
+}
+.searchbox .blusearch{
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    right: 15%;
+    cursor: pointer;
+    border: none;
+}
+.searchbox input{
+    width: 70%;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0, 0.87);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: box-shadow 100ms;
+    outline: none;
+    padding-right: 150px;
+    padding-left: 50px;
+    
+}
+
+.button-left, .button-right{
+    display: inline-block;
+
+}
+
+.button-left{
+    margin-left: 22%;
+}
+.button-right{
+    margin-left: 17%;
+}
+.categori{
+    margin: 0 auto;
+    padding-top: 35px;
+    width: 95%;
+    height: 80px;
+    border: 1px solid black;
+}
+.categori .plus{
+border: 1px solid black;
+}
+.categori .plus .imgplus{
+    width:50px;
+    height: 50px;
+}
+
+.boite {
+    /* Mieux vaut centrer le texte dans un
+       cercle. */
+    text-align : center;
+  
+    /* On fait attention à ce que le texte
+       ne touche pas la bordure. On placera
+       donc le texte avec un remplissage, ce
+       qui donnera une meilleure impression
+       pour le cercle. */
+    padding : 1em;
+  
+    /* La bordure marquera le cercle. On
+       pourrait également utiliser un arrière-
+       plan car celui-ci aurait été contenu
+       par border-radius */
+    border : 0.5em solid black;
+  
+    /* Assurons-nous que la boîte soit carrée
+       pour obtenir un cercle bien rond plutôt
+       qu'une ellipse ;) */
+    width  : 4em;
+    height : 4em;
+  
+    /* Enfin, transformons le carré en cercle */
+    border-radius: 100%;
+  }
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+.gallery:hover{
+    border: 1px solid #777;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+div.searchbox input{
+    display: inline-block;
+    width: 70%;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0, 0.87);
+    font-size: 16px;
+    padding: 1%;
+    border-radius: 25px;
+    transition: box-shadow 100ms;
+    outline: none;
+    padding-right: 150px;
+    padding-left: 50px;
+    
+}
+div.searchbox .blusearch{
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    right: 15%;
+    cursor: pointer;
+    border: none;
+}
+
+span{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 100px;
+    border-radius: 5px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+li{
+    margin-right: 10px;
+}
+h5{
+    font-size: unset;
+}

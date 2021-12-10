@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.section-1{
+    flex: 1;
+    margin-top: 8%;
+}
+.section-1 .logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 107px;
+}
+.s-box{
+    width: 550px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+.s-box .s-input {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0, 0.87);
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 120px;
+    border-radius: 25px;
+    width: 100%;
+    transition: box-shadow 100ms;
+    outline: none;
+}
+.s-box .s-input:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+}
+.s-box .search{
+    width: 18px;
+    opacity: .4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+.s-box .cam-icon{
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 80px;
+    cursor: pointer;
+}
+.s-box .mic-icon{
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    cursor: pointer;
+}
+.s-box .blusearch{
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    cursor: pointer;
+}
